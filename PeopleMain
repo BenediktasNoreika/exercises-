@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+
+public class Hello {
+	
+
+	public static void main(String[] args) {
+		
+		People person = new People();
+		People person2 = new People("bob", 24);
+		People person3 = new People("barbra", 34);
+		
+		People person4 = new People("ben", 24);
+		People person5 = new People("Steve", 21);
+		People person6 = new People("lana", 26);
+		People person7 = new People("tanya", 25);
+		People person8 = new People("sayeed", 44);
+		
+		ArrayList<People> peopleList = new ArrayList<People>();
+		peopleList.add(person);
+		peopleList.add(person2);
+		peopleList.add(person3);
+		peopleList.add(person4);
+		peopleList.add(person5);
+		peopleList.add(person6);
+		peopleList.add(person7);
+		peopleList.add(person8);
+		for (People p: peopleList)
+		{
+			System.out.println(p.getName());
+			System.out.println(p.getAge());
+		}
+		
+		
+
+	 }
+   }
