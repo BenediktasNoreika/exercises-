@@ -1,0 +1,28 @@
+
+public class People {
+	private String name;
+	private int age;
+	
+	public People() {
+		name = "john";
+		age = 20;
+		System.out.println("john,20, confirmed");
+	}
+	
+	public People(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	
+	public String getName() 
+	{
+		return this.name;
+	}
+	
+	public int getAge()
+	{
+		return this.age;
+	}
+	
+	
+}
